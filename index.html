@@ -3,24 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CanDoEstate - Your Estate Solutions</title>
+    <title>CanDoEstate - Simple Estate Solutions</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-white">
-    <!-- Navigation -->
-    <nav class="bg-white shadow-sm sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4">
+    <!-- Simple Navigation -->
+    <nav class="bg-white shadow-sm">
+        <div class="max-w-4xl mx-auto px-4">
             <div class="flex justify-between items-center h-16">
                 <span class="text-2xl font-bold text-blue-600">CanDoEstate</span>
-                <div class="hidden md:flex space-x-6">
-                    <a href="#featured" class="text-gray-600 hover:text-blue-600">Listings</a>
-                    <a href="#resources" class="text-gray-600 hover:text-blue-600">Resources</a>
-                    <a href="#success" class="text-gray-600 hover:text-blue-600">Success Stories</a>
-                    <a href="#calculator" class="text-gray-600 hover:text-blue-600">Savings Calculator</a>
-                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                        Call Amanda: (520) 236-0719
-                    </button>
-                </div>
+                <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                    Call Amanda: (520) 236-0719
+                </button>
             </div>
         </div>
     </nav>
@@ -36,85 +30,97 @@
             </div>
             <div class="text-center">
                 <h1 class="text-4xl font-bold text-gray-900 mb-4">
-                    Hi, I'm Amanda!
+                    Estate Sales Done Right
                 </h1>
                 <p class="text-xl text-gray-600 mb-4">
-                    I believe in charging less so you can keep more. 
-                    That's why our listing fee is just 1% - the lowest in the area.
+                    1% Listing Fee. No Hidden Costs.<br>
+                    Save Thousands While Getting Full Service.
                 </p>
             </div>
         </div>
     </div>
 
-    <!-- Featured Listings -->
-    <div id="featured" class="py-16 bg-gray-50">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Featured Listings</h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Featured Listing 1 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="/api/placeholder/400/300" alt="Home" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Charming Desert Estate</h3>
-                        <p class="text-gray-600 mb-4">Beautiful 4 bed, 3 bath home with mountain views</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-2xl font-bold text-blue-600">$450,000</span>
-                            <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-                                View Details
-                            </button>
-                        </div>
+    <!-- Simple Services -->
+    <div class="py-16">
+        <div class="max-w-4xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12">Full Service, Lower Fees</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Estate Sale Package -->
+                <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-bold mb-2">Estate Sale Package</h3>
+                    <div class="mb-4">
+                        <span class="text-3xl font-bold text-blue-600">Fixed $2,500</span>
+                        <span class="text-gray-500 ml-2 line-through">$5,000+</span>
                     </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Complete Estate Management
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Professional Organization
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Moving Coordination
+                        </li>
+                    </ul>
                 </div>
 
-                <!-- Featured Listing 2 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="/api/placeholder/400/300" alt="Home" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Modern Downtown Condo</h3>
-                        <p class="text-gray-600 mb-4">Luxurious 2 bed, 2 bath with city views</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-2xl font-bold text-blue-600">$325,000</span>
-                            <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-                                View Details
-                            </button>
-                        </div>
+                <!-- Home Sale Package -->
+                <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-bold mb-2">Home Sale Package</h3>
+                    <div class="mb-4">
+                        <span class="text-3xl font-bold text-blue-600">1% Listing Fee</span>
+                        <span class="text-gray-500 ml-2 line-through">6%</span>
                     </div>
-                </div>
-
-                <!-- Featured Listing 3 -->
-                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
-                    <img src="/api/placeholder/400/300" alt="Home" class="w-full h-48 object-cover">
-                    <div class="p-6">
-                        <h3 class="text-xl font-bold mb-2">Foothills Retreat</h3>
-                        <p class="text-gray-600 mb-4">Spacious 3 bed, 2.5 bath with pool</p>
-                        <div class="flex justify-between items-center">
-                            <span class="text-2xl font-bold text-blue-600">$525,000</span>
-                            <button class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">
-                                View Details
-                            </button>
-                        </div>
-                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Full Service Listing
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Professional Photos
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Expert Negotiation
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Savings Calculator -->
-    <div id="calculator" class="py-16">
+    <!-- Simple Savings Calculator -->
+    <div class="py-16 bg-gray-50">
         <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Calculate Your Savings</h2>
+            <h2 class="text-3xl font-bold text-center mb-8">See How Much You'll Save</h2>
             <div class="bg-white p-8 rounded-lg shadow-lg">
                 <div class="mb-6">
-                    <label class="block text-gray-700 mb-2">Estimated Home Value</label>
+                    <label class="block text-gray-700 mb-2">Enter Your Home Value</label>
                     <input type="number" id="homeValue" class="w-full p-3 border rounded-lg" 
-                           placeholder="Enter home value">
+                           placeholder="Example: 500000">
                 </div>
                 <button onclick="calculateSavings()" 
                         class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
-                    Calculate Savings
+                    Calculate Your Savings
                 </button>
                 <div id="savingsResult" class="mt-6 p-4 bg-gray-50 rounded-lg hidden">
-                    <h3 class="text-xl font-bold mb-2">Your Potential Savings</h3>
                     <div class="grid grid-cols-2 gap-4">
                         <div>
                             <p class="text-gray-600">Traditional 6% Fee:</p>
@@ -125,7 +131,7 @@
                             <p id="ourFee" class="text-xl font-bold text-green-600"></p>
                         </div>
                         <div class="col-span-2">
-                            <p class="text-gray-600">Total Savings:</p>
+                            <p class="text-gray-600">You Save:</p>
                             <p id="totalSavings" class="text-2xl font-bold text-blue-600"></p>
                         </div>
                     </div>
@@ -134,118 +140,10 @@
         </div>
     </div>
 
-    <!-- Success Stories -->
-    <div id="success" class="py-16 bg-gray-50">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Success Stories</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Success Story 1 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <div class="flex items-start space-x-4">
-                        <img src="/api/placeholder/100/100" alt="Client" class="w-16 h-16 rounded-full">
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">The Johnson Family</h3>
-                            <p class="text-gray-600 mb-4">
-                                "Amanda made our transition seamless. We saved over $12,000 in fees and 
-                                her team handled everything from decluttering to the final sale."
-                            </p>
-                            <div class="flex items-center">
-                                <span class="text-yellow-500">★★★★★</span>
-                                <span class="ml-2 text-gray-600">Sold in 14 days</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Success Story 2 -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <div class="flex items-start space-x-4">
-                        <img src="/api/placeholder/100/100" alt="Client" class="w-16 h-16 rounded-full">
-                        <div>
-                            <h3 class="text-xl font-bold mb-2">Mary & Robert Smith</h3>
-                            <p class="text-gray-600 mb-4">
-                                "CanDoEstate helped us downsize with care and respect. Their 1% fee 
-                                saved us thousands, and their service was exceptional."
-                            </p>
-                            <div class="flex items-center">
-                                <span class="text-yellow-500">★★★★★</span>
-                                <span class="ml-2 text-gray-600">Saved $15,500 in fees</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Resources Section -->
-    <div id="resources" class="py-16">
-        <div class="max-w-6xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Helpful Resources</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Downsizing Guide -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4">Downsizing Guide</h3>
-                    <ul class="space-y-2">
-                        <li>Step-by-step checklist</li>
-                        <li>Room organization tips</li>
-                        <li>Timeline planning</li>
-                        <li>Storage solutions</li>
-                    </ul>
-                    <button class="mt-4 text-blue-600 hover:text-blue-800">
-                        Download Guide →
-                    </button>
-                </div>
-
-                <!-- Estate Planning -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4">Estate Planning</h3>
-                    <ul class="space-y-2">
-                        <li>Legal considerations</li>
-                        <li>Document checklist</li>
-                        <li>Family communication</li>
-                        <li>Asset inventory</li>
-                    </ul>
-                    <button class="mt-4 text-blue-600 hover:text-blue-800">
-                        Learn More →
-                    </button>
-                </div>
-
-                <!-- Moving Resources -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4">Moving Guide</h3>
-                    <ul class="space-y-2">
-                        <li>Moving timeline</li>
-                        <li>Packing tips</li>
-                        <li>Service coordination</li>
-                        <li>Change of address</li>
-                    </ul>
-                    <button class="mt-4 text-blue-600 hover:text-blue-800">
-                        Get Tips →
-                    </button>
-                </div>
-
-                <!-- Senior Resources -->
-                <div class="bg-white p-6 rounded-lg shadow-lg">
-                    <h3 class="text-xl font-bold mb-4">Senior Living</h3>
-                    <ul class="space-y-2">
-                        <li>Community guides</li>
-                        <li>Care options</li>
-                        <li>Financial planning</li>
-                        <li>Local resources</li>
-                    </ul>
-                    <button class="mt-4 text-blue-600 hover:text-blue-800">
-                        Explore Options →
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact Section -->
-    <div id="contact" class="bg-gray-50 py-16">
+    <!-- Simple Contact -->
+    <div class="py-16">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-8">Let's Talk</h2>
+            <h2 class="text-3xl font-bold mb-8">Let's Get Started</h2>
             <div class="bg-white rounded-lg shadow-lg p-8">
                 <div class="flex items-center justify-center mb-6">
                     <svg class="w-6 h-6 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -258,5 +156,37 @@
                 <form class="max-w-lg mx-auto space-y-4">
                     <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg">
                     <input type="tel" placeholder="Your Phone" class="w-full p-3 border rounded-lg">
-                    <textarea placeholder="How can I help you?" class="w-full p-3 border rounded-lg h-32"></textarea>
-                    <button class="w-full bg-blue-600
+                    <textarea placeholder="How can I help?" class="w-full p-3 border rounded-lg h-32"></textarea>
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
+                        Send Message to Amanda
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Simple Footer -->
+    <footer class="bg-white border-t py-8">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <p class="text-gray-600">
+                © 2025 CanDoEstate. Proudly serving our community with the lowest fees.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Calculator Script -->
+    <script>
+        function calculateSavings() {
+            const homeValue = document.getElementById('homeValue').value;
+            const traditionalFee = homeValue * 0.06;
+            const ourFee = homeValue * 0.01;
+            const savings = traditionalFee - ourFee;
+
+            document.getElementById('traditionalFee').textContent = `$${traditionalFee.toLocaleString()}`;
+            document.getElementById('ourFee').textContent = `$${ourFee.toLocaleString()}`;
+            document.getElementById('totalSavings').textContent = `$${savings.toLocaleString()}`;
+            document.getElementById('savingsResult').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
