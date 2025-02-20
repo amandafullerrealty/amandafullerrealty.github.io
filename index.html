@@ -3,51 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CanDoEstate - Simple Estate Solutions</title>
+    <title>CanDoEstate - Your Estate Solutions</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-white">
-    <!-- Simple Navigation -->
+    <!-- Navigation -->
     <nav class="bg-white shadow-sm">
         <div class="max-w-4xl mx-auto px-4">
             <div class="flex justify-between items-center h-16">
                 <span class="text-2xl font-bold text-blue-600">CanDoEstate</span>
-                <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
-                    Call Amanda: (520) 236-0719
-                </button>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#services" class="text-gray-600 hover:text-blue-600">Services</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600">Contact</a>
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700">
+                        Call Amanda: (555) 123-4567
+                    </button>
+                </div>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Video Section -->
+    <!-- Hero Section with Video -->
     <div class="bg-gray-50 py-12">
         <div class="max-w-4xl mx-auto px-4">
             <div class="aspect-video bg-gray-200 rounded-lg mb-8">
+                <!-- Replace with your actual video -->
                 <video class="w-full h-full object-cover rounded-lg" controls>
-                    <source src="welcome-video.mp4" type="video/mp4">
+                    <source src="your-video.mp4" type="video/mp4">
                     Your browser does not support the video tag.
                 </video>
             </div>
             <div class="text-center">
                 <h1 class="text-4xl font-bold text-gray-900 mb-4">
-                    Estate Sales Done Right
+                    Hi, I'm Amanda!
                 </h1>
                 <p class="text-xl text-gray-600 mb-4">
-                    1% Listing Fee. No Hidden Costs.<br>
-                    Save Thousands While Getting Full Service.
+                    I believe in charging less so you can keep more. 
+                    That's why our listing fee is just 1% - the lowest in the area.
                 </p>
             </div>
         </div>
     </div>
 
-    <!-- Simple Services -->
-    <div class="py-16">
+    <!-- Services Section -->
+    <div id="services" class="py-16">
         <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-12">Full Service, Lower Fees</h2>
+            <h2 class="text-3xl font-bold text-center mb-12">Simple, Transparent Pricing</h2>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <!-- Estate Sale Package -->
+                <!-- Full Estate Service -->
                 <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
-                    <h3 class="text-2xl font-bold mb-2">Estate Sale Package</h3>
+                    <h3 class="text-2xl font-bold mb-2">Full Estate Service</h3>
+                    <div class="mb-4">
+                        <span class="text-3xl font-bold text-blue-600">1% Listing Fee</span>
+                        <span class="text-gray-500 ml-2 line-through">3-6%</span>
+                    </div>
+                    <ul class="space-y-3">
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Professional Photography
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            MLS Listing
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Open Houses
+                        </li>
+                        <li class="flex items-center">
+                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                            Full Marketing
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Downsizing Package -->
+                <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
+                    <h3 class="text-2xl font-bold mb-2">Downsizing Package</h3>
                     <div class="mb-4">
                         <span class="text-3xl font-bold text-blue-600">Fixed $2,500</span>
                         <span class="text-gray-500 ml-2 line-through">$5,000+</span>
@@ -57,13 +97,13 @@
                             <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            Complete Estate Management
+                            Estate Sale Management
                         </li>
                         <li class="flex items-center">
                             <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            Professional Organization
+                            Decluttering Support
                         </li>
                         <li class="flex items-center">
                             <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -71,34 +111,11 @@
                             </svg>
                             Moving Coordination
                         </li>
-                    </ul>
-                </div>
-
-                <!-- Home Sale Package -->
-                <div class="border rounded-lg p-6 hover:shadow-lg transition-shadow">
-                    <h3 class="text-2xl font-bold mb-2">Home Sale Package</h3>
-                    <div class="mb-4">
-                        <span class="text-3xl font-bold text-blue-600">1% Listing Fee</span>
-                        <span class="text-gray-500 ml-2 line-through">6%</span>
-                    </div>
-                    <ul class="space-y-3">
                         <li class="flex items-center">
                             <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
                             </svg>
-                            Full Service Listing
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            Professional Photos
-                        </li>
-                        <li class="flex items-center">
-                            <svg class="w-5 h-5 text-green-500 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
-                            </svg>
-                            Expert Negotiation
+                            Donation Management
                         </li>
                     </ul>
                 </div>
@@ -106,57 +123,21 @@
         </div>
     </div>
 
-    <!-- Simple Savings Calculator -->
-    <div class="py-16 bg-gray-50">
-        <div class="max-w-4xl mx-auto px-4">
-            <h2 class="text-3xl font-bold text-center mb-8">See How Much You'll Save</h2>
-            <div class="bg-white p-8 rounded-lg shadow-lg">
-                <div class="mb-6">
-                    <label class="block text-gray-700 mb-2">Enter Your Home Value</label>
-                    <input type="number" id="homeValue" class="w-full p-3 border rounded-lg" 
-                           placeholder="Example: 500000">
-                </div>
-                <button onclick="calculateSavings()" 
-                        class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
-                    Calculate Your Savings
-                </button>
-                <div id="savingsResult" class="mt-6 p-4 bg-gray-50 rounded-lg hidden">
-                    <div class="grid grid-cols-2 gap-4">
-                        <div>
-                            <p class="text-gray-600">Traditional 6% Fee:</p>
-                            <p id="traditionalFee" class="text-xl font-bold text-red-600"></p>
-                        </div>
-                        <div>
-                            <p class="text-gray-600">Our 1% Fee:</p>
-                            <p id="ourFee" class="text-xl font-bold text-green-600"></p>
-                        </div>
-                        <div class="col-span-2">
-                            <p class="text-gray-600">You Save:</p>
-                            <p id="totalSavings" class="text-2xl font-bold text-blue-600"></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Simple Contact -->
-    <div class="py-16">
+    <!-- Contact Section -->
+    <div id="contact" class="bg-gray-50 py-16">
         <div class="max-w-4xl mx-auto px-4 text-center">
-            <h2 class="text-3xl font-bold mb-8">Let's Get Started</h2>
+            <h2 class="text-3xl font-bold mb-8">Let's Talk</h2>
             <div class="bg-white rounded-lg shadow-lg p-8">
                 <div class="flex items-center justify-center mb-6">
                     <svg class="w-6 h-6 text-blue-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
-                              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
-                        </path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                     </svg>
-                    <span class="text-2xl font-bold">(520) 236-0719</span>
+                    <span class="text-2xl font-bold">(555) 123-4567</span>
                 </div>
                 <form class="max-w-lg mx-auto space-y-4">
                     <input type="text" placeholder="Your Name" class="w-full p-3 border rounded-lg">
                     <input type="tel" placeholder="Your Phone" class="w-full p-3 border rounded-lg">
-                    <textarea placeholder="How can I help?" class="w-full p-3 border rounded-lg h-32"></textarea>
+                    <textarea placeholder="How can I help you?" class="w-full p-3 border rounded-lg h-32"></textarea>
                     <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700">
                         Send Message to Amanda
                     </button>
@@ -165,7 +146,7 @@
         </div>
     </div>
 
-    <!-- Simple Footer -->
+    <!-- Footer -->
     <footer class="bg-white border-t py-8">
         <div class="max-w-4xl mx-auto px-4 text-center">
             <p class="text-gray-600">
@@ -173,20 +154,5 @@
             </p>
         </div>
     </footer>
-
-    <!-- Calculator Script -->
-    <script>
-        function calculateSavings() {
-            const homeValue = document.getElementById('homeValue').value;
-            const traditionalFee = homeValue * 0.06;
-            const ourFee = homeValue * 0.01;
-            const savings = traditionalFee - ourFee;
-
-            document.getElementById('traditionalFee').textContent = `$${traditionalFee.toLocaleString()}`;
-            document.getElementById('ourFee').textContent = `$${ourFee.toLocaleString()}`;
-            document.getElementById('totalSavings').textContent = `$${savings.toLocaleString()}`;
-            document.getElementById('savingsResult').classList.remove('hidden');
-        }
-    </script>
 </body>
 </html>
